@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
 <body>
-<p> You emerge as an intelligent species on a tiny planet. Choose your species. </p>
-<button> Hearthian </button>
+<p id="intro">You emerge as an intelligent species on a tiny planet. Choose your species.</p>
+<button type="button" onclick='document.getElementById("intro").innerText="Hearthian"'> Hearthian </button>
+<button type="button" onclick='document.getElementById("intro").innerText="Nomai"'> Nomai </button>
+<button type="button" onclick='document.getElementById("intro").innerText="Dreamer"'> Dreamer </button>
+<p id="Species"></p>
+</body>
+</html>
